@@ -29,6 +29,14 @@ orders.
   Not touched or kept in sync since. Has its own `SUPERSEDED-BACKUP.md`
   marker at its root; see that file before deleting it.
 
+- **Separate v2 site**: on 2026-10-19 an updated build (adds contact/
+  shipping/privacy pages, homepage/style/script changes) was published as
+  its own repo, `github.com/MindStimulated/1putt-site-v2`, live at
+  `https://mindstimulated.github.io/1putt-site-v2/`, working copy at
+  `/Volumes/MOVESPEED/Projects/1putt-site-v2`. The user chose to keep this
+  original live alongside it rather than replace it — don't sync changes
+  between the two unless asked.
+
 ## Design system (for future edits)
 
 - Concept: "precision instrument catalog" — machined aluminum tool,
