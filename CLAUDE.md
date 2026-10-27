@@ -14,26 +14,32 @@ orders.
 
 ## Infrastructure
 
-- **Live working copy**: `/Volumes/MOVESPEED/Projects/1putt-site` — a real
-  git clone of `github.com/MindStimulated/1putt-site`, `main` branch.
+- **Live working copy**: `/Volumes/MOVESPEED/Projects/1putt-v1` — a real
+  git clone of `github.com/MindStimulated/1putt-v1`, `main` branch.
+  Renamed on 2026-10-27 from `1putt-site` (repo and folder) when the newer
+  build took over the plain `1putt` name.
   Moved here from Master4T on 2026-09-17. MOVESPEED is ExFAT, so this repo
   has `core.fileMode false` set locally (ExFAT can't preserve Unix
   permission bits, which was making every tracked file show as spuriously
   modified) and `._*` AppleDouble sidecar files are excluded via
   `.git/info/exclude`; both are local-only, not committed.
 - **Hosting**: GitHub Pages, `main` branch, `/ (root)`. Live at
-  `https://mindstimulated.github.io/1putt-site/`. No custom domain yet —
+  `https://mindstimulated.github.io/1putt-v1/` (the old `/1putt-site/`
+  address stopped working at the rename). No custom domain yet —
   README documents how to add one (`CNAME` file) if that changes.
 - **Backup location on Master4T**: `/Volumes/Master4T/Projects/1putt-site`
   — superseded duplicate, left in place on purpose after the move above.
+  Its folder name (and its `SUPERSEDED-BACKUP.md`) predate the
+  `1putt-v1` rename and weren't changed — Master4T wasn't mounted.
   Not touched or kept in sync since. Has its own `SUPERSEDED-BACKUP.md`
   marker at its root; see that file before deleting it.
 
 - **Separate v2 site**: on 2026-10-19 an updated build (adds contact/
   shipping/privacy pages, homepage/style/script changes) was published as
-  its own repo, `github.com/MindStimulated/1putt-site-v2`, live at
-  `https://mindstimulated.github.io/1putt-site-v2/`, working copy at
-  `/Volumes/MOVESPEED/Projects/1putt-site-v2`. The user chose to keep this
+  its own repo, now `github.com/MindStimulated/1putt` (renamed from
+  `1putt-site-v2` on 2026-10-27), live at `https://1putt.netlify.app` and
+  `https://mindstimulated.github.io/1putt/`, working copy at
+  `/Volumes/MOVESPEED/Projects/1putt`. That's the current site. The user chose to keep this
   original live alongside it rather than replace it — don't sync changes
   between the two unless asked.
 
